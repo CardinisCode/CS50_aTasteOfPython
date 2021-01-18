@@ -46,6 +46,9 @@ def check_cash_for_minimum_change(cash):
     if cash == 7:
         return 3
 
+    if cash == 8:
+        return 4
+
     return cash
 
 
