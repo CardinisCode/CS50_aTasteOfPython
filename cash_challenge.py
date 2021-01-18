@@ -34,14 +34,17 @@ def check_cash_for_minimum_change(cash):
     if cash == 5:
         return 1
 
-    elif cash == 10: 
+    if cash == 10: 
         return 1
 
-    elif cash == 20:
+    if cash == 20:
         return 2
 
-    elif cash == 6:
+    if cash == 6:
         return 2
+
+    if cash == 7:
+        return 3
 
     return cash
 
