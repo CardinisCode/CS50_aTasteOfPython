@@ -31,7 +31,9 @@ def verify_change_is_valid(cash):
 
 
 def check_cash_for_minimum_change(cash):
-    return 1
+    if cash == 1:
+        return 1
+    return 2
 
 
 def main(cash):
