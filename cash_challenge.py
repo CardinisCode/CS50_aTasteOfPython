@@ -35,7 +35,7 @@ def check_cash_for_minimum_change(cash):
         return 1
 
     elif cash == 10: 
-        return 2
+        return 1
 
     return cash
 
