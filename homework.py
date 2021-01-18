@@ -1,4 +1,4 @@
-# Challenge: Take a number (n) from the user and build a pyramid of size n
+# Challenge #1: Take a number (n) from the user and build a pyramid of size n
 Done!
 
 
