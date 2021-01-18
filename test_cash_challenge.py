@@ -112,7 +112,19 @@ class TestCashGivenReturnsCorrectMinimumChangeQuantity(unittest.TestCase):
 
         self.assertEqual(actual, 4)  
 
-          
+    def test_given23cents_returns5coins(self):
+        cash = 23
+
+        actual = cash_challenge.check_cash_for_minimum_change(cash)
+
+        self.assertEqual(actual, 5)
+
+    def test_given25cents_returns1coin(self):
+        cash = 25
+
+        actual = cash_challenge.check_cash_for_minimum_change(cash)
+
+        self.assertEqual(actual, 1)                       
 
 
 
