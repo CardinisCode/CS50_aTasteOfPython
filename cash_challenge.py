@@ -33,6 +33,9 @@ def verify_change_is_valid(cash):
 def check_cash_for_minimum_change(cash):
     coins = 0 
 
+    if cash == 51:
+        return 3
+
     if cash == 50:
         return 2
 
