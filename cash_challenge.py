@@ -40,6 +40,9 @@ def check_cash_for_minimum_change(cash):
     elif cash == 20:
         return 2
 
+    elif cash == 6:
+        return 2
+
     return cash
 
 
